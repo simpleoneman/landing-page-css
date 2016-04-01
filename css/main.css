@@ -1,9 +1,17 @@
 /* Standart styles */
 body {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     margin: 0;
     min-width: 1280px;
+    box-sizing: border-box;;
+    background-color: #f2f2f2;
+}
+h1, p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
 }
 
 /* Bohdan Kishchak START */
