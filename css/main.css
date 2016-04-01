@@ -1,5 +1,7 @@
 /* Standart styles */
 body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14pt;
     margin: 0;
     width: 1280px;
 }
