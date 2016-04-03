@@ -240,12 +240,12 @@ div.text-container1{
     float: left;
     margin: 20px;
 }
-.Surkov h1{
+.Main-Headline h1{
     font-size: x-large;
     margin-left: 10%;
     margin-bottom: 2%;
 }
-.Surkov ll{
+.Main-Headline span{
     color: #37C1EB;
 }
 .main{
@@ -257,17 +257,17 @@ div.text-container1{
 .facebook{
     float: left;
     margin: 2% 2% 0 2%;
-    height: 680px;
+    height: 620px;
     width: 300px;
 }
 .widget{
-    background-color: #737D7D;
+    background-color: #CBD1D0;
     margin: 5%;
     height: 100%;
     text-align: center;
 }
 .widget p{
-    padding-top: 60%;
+    padding-top: 80%;
     margin-left: 30%;
     margin-right: 30%;
 }
