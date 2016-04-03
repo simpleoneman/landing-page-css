@@ -16,6 +16,9 @@ a {
     text-decoration: none;
     outline: none;
 }
+.clear_fix {
+    clear: both;
+}
 
 /* Bohdan Kishchak START */
 header {
