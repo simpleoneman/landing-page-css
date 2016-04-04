@@ -280,24 +280,77 @@ div.text-container1{
 
 
 /* Roman Mrychko START */
-/*Banner*/
+footer {
+  width: 100%;
+}
+/*how-to-consume (section 9)*/
 div.how-to-consume {
     width: 100%;
     height: 280px;
     background: #A7B1AF;
+    right: 0;
+    text-align: center;
 }
 
+div.how-to-consume .main-header {
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  align-content: center;
+}
+
+div.how-to-consume .main-header p {
+  font-family: Arial;
+  font-size: 27px;
+  color: grey;
+  text-align: center;
+}
+
+div.how-to-consume .main-header span {
+  color: blue;
+}
+
+#left-container {
+  float: left;
+}
+
+#center-container {
+  margin: auto;
+}
+
+#right-container {
+  float: right;
+}
+
+/* circle container*/
+div.how-to-consume .circle-container {
+  width: 30%;
+  height: 140px;
+  border: 2px solid red; /* test */
+  display: inline-block;
+  margin: auto;
+}
+
+/* circle */
+div.how-to-consume .circle {
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border: 2px solid blue;
+}
+
+/* epilogue-footer (section 10) */
 div.epilogue-footer {
   width: 100%;
   height: 280px;
   background: #1C1E1D;
 }
 
+/* copyright (section 11) */
 div.copyright {
   width: 100%;
   height: 50px;
   background: black;
 }
-
-div.copyright.
 /* Roman Mrychko END */
