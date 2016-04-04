@@ -308,7 +308,7 @@ div.widget p{
 /*how-to-consume (section 9)*/
 div.consume {
     width: 100%;
-    height: 280px;
+    height: 300px;
     background: #A7B1AF;
     right: 0;
     text-align: center;
@@ -321,11 +321,12 @@ div.consume .main-header {
   align-content: center;
 }
 
-div.consume .main-header p {
+div.consume .main-header h3 {
   font-family: Arial;
   font-size: 27px;
   color: #313131;
   text-align: center;
+  padding: 20px 0;
 }
 
 div.consume .main-header span {
@@ -364,7 +365,7 @@ div.consume .circle {
 }
 
 /* circle text */
-div.consume .circle p {
+div.circle p {
   color: white;
   font-size: 24px;
   text-align: center;
@@ -379,15 +380,59 @@ div.epilogue_footer {
 }
 
 div.epilogue_footer .left-text {
-  width: 50%;
-  float: left;
-  border: 2px solid white;
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  height: 380px;
+  text-align: left;
 }
 
 div.epilogue_footer .right-text {
-  width: 50%;
-  float: left;
-  border: 2px solid red;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  height: 380px;
+}
+
+div.left-text h3 {
+  font-family: Arial;
+  font-size: 27px;
+  margin-top: 30px;
+  margin-left: 220px;
+  color: white;
+}
+
+div.left-text p {
+  font-family: Tahoma;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 220px;
+  margin-right: 120px;
+  color: white;
+}
+
+div.right-text h3 {
+  font-family: Arial;
+  font-size: 27px;
+  text-align: center;
+  width: 300px;
+  margin-top: 30px;
+  color: white;
+}
+
+div.right-text input {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin-top: 60px;
+  border: 2px solid white;
+  background-color: Transparent;
+}
+
+div.left-text span {
+  color: #37C1EB;
 }
 
 /* copyright (section 11) */
@@ -403,8 +448,8 @@ div.footer .copyright {
 
 div.footer .copyright p {
   color: white;
-  font-family: sans-serif;
-  font-size: 20px;
+  font-family: Tahoma;
+  font-size: 16px;
   padding: 12px;
   text-align: center;
 }
