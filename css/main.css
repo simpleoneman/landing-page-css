@@ -206,7 +206,107 @@ div.sub_info ul {
 
 
 /* Nastia Bila START */
+section.featured_guests {
+    height: 575px;
+    width: 100%;
+}
+div.featured_guests_container {
+    width: 1022px;
+    height: 575px;
+    position: relative;
+    margin: 0 auto;
+}
+div.featured_guests_container h3 {
+    width: 100%;
+    font-size: 35px;
+    padding: 30px 0;
+    text-align: center;
+}
+div.featured_guests_container h3 span {
+    color: #37C1EB;
+}
+div.featured_guests_container h2 span {
+    color: #37C1EB;
+  }
+div.contplace {
+    text-align: center;
+    padding-right: 50px;
+}
+div.placeholder1 {
+    left: 0;
+    position: absolute;
+    float: right;
+}
+div.placeholder2 {
+    left: 520px;
+    position: absolute;
+}
+div.contplace2 {
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-align: center;
+}
+div.layer1 {
+    padding-left: 100px;
+    width: 300px;
+}
+div.leftfoto {
+    float: right;
+}
+div.rightfoto {
+    float: right;
+}
+div.lorem2 {
+    font-size: 10pt;
+     line-height: 20pt;
+     color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 240px;
+    padding-top: 255px;
+  }
 
+  div.lorem2 h2{
+      color: #37C1EB;
+}
+div.lorem1 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 240px;
+}
+div.lorem1 h2{
+    color: #37C1EB;
+  }
+div.lorem3 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 758px;
+}
+div.lorem3 h2{
+    color: #37C1EB;
+  }
+div.lorem4 {
+    font-size: 10pt;
+     line-height: 20pt;
+    color: #787878;
+    width: 255px;
+    height: 360px;
+    position: absolute;
+    left: 758px;
+    top: 363px;
+}
+div.lorem4 h2{
+    color: #37C1EB;
+  }
 /* Nastia Bila END */
 
 
