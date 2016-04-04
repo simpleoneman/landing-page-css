@@ -16,6 +16,9 @@ a {
     text-decoration: none;
     outline: none;
 }
+.clear_fix {
+    clear: both;
+}
 
 /* Bohdan Kishchak START */
 header {
@@ -213,6 +216,65 @@ div.sub_info ul {
 
 
 /* ViktorSurkov START */
+div.photo{
+    display: inline-block;
+    width: 120px;
+    float: left;
+    margin: 10px;
+}
+div.text-container{
+    display: inline-block;
+    width: 60%;
+    float: left;
+    margin: 10px;
+    font-size: small;
+}
+.text-container p{
+    font-size: large;
+}
+.list1, .list2, .list3, .list4{
+    width: 100%;
+    display: inline-block;
+    margin-left: 10%;
+}
+div.text-container1{
+    display: inline-block;
+    width: 80%;
+    float: left;
+    margin: 20px;
+}
+.Surkov h1{
+    font-size: x-large;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.Surkov ll{
+    color: #37C1EB;
+}
+.main{
+    padding-left: 7%;
+    margin: 2% 0 2% 2%;
+    width: 55%;
+    float: left;
+}
+.facebook{
+    float: left;
+    margin: 2% 2% 0 2%;
+    height: 680px;
+    width: 300px;
+}
+.widget{
+    background-color: #737D7D;
+    margin: 5%;
+    height: 100%;
+    text-align: center;
+}
+.widget p{
+    padding-top: 60%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 
 /* Viktor Surkov END */
 
