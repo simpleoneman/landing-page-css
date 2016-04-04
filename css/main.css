@@ -6,7 +6,7 @@ body {
     font-size: 14pt;
     margin: 0;
     min-width: 1280px;
-    box-sizing: border-box;;
+    box-sizing: border-box;
     background-color: #f2f2f2;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -24,7 +24,7 @@ a {
 header {
     width: 100%;
 }
-/*Navigation*/
+/* Section #1 – navigation */
 nav {
     width: 100%;
     height: 50px;
@@ -96,7 +96,7 @@ div.nav_search:hover input {
     width: 120px;
     border: 1px solid #A0A9A9;
 }
-/*Banner*/
+/* Section #2 – cta (call-to-action) Banner */
 div.banner {
     width: 100%;
     height: 380px;
@@ -133,12 +133,12 @@ input.banner_info_button {
     border: none;
 }
 input.banner_info_button:hover {
-  background: #3B86C8;
-  background-image: linear-gradient(to bottom, #3cb0fd, #3B86C8);
-  text-decoration: none;
-  cursor: pointer;
+    background: #3B86C8;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3B86C8);
+    text-decoration: none;
+    cursor: pointer;
 }
-/*Credibility Logos*/
+/* Section #3 – crediBility logos */
 div.cred_logos {
     width: 100%;
     height: 50px;
@@ -161,7 +161,7 @@ div.cred_logos span {
     padding: 0 20px;
     color: #737D7D;
 }
-/*Subscribe*/
+/* Section #4 – Subscribe Buttons */
 div.subscribe {
     height: 210px;
     width: 100%;
@@ -204,14 +204,15 @@ div.sub_info ul {
 }
 /* Bohdan Kishchak END */
 
-
 /* Nastia Bila START */
+/* Section #5 – Featured guests */
 section.featured_guests {
     height: 575px;
     width: 100%;
+    background-color: #FFFFFF;
 }
 div.featured_guests_container {
-    width: 1022px;
+    width: 945px;
     height: 575px;
     position: relative;
     margin: 0 auto;
@@ -219,7 +220,7 @@ div.featured_guests_container {
 div.featured_guests_container h3 {
     width: 100%;
     font-size: 35px;
-    padding: 30px 0;
+    padding: 35px 0;
     text-align: center;
 }
 div.featured_guests_container h3 span {
@@ -227,7 +228,7 @@ div.featured_guests_container h3 span {
 }
 div.featured_guests_container h2 span {
     color: #37C1EB;
-  }
+}
 div.contplace {
     text-align: center;
     padding-right: 50px;
@@ -238,7 +239,7 @@ div.placeholder1 {
     float: right;
 }
 div.placeholder2 {
-    left: 520px;
+    left: 495px;
     position: absolute;
 }
 div.contplace2 {
@@ -256,61 +257,52 @@ div.leftfoto {
 div.rightfoto {
     float: right;
 }
-div.lorem2 {
-    font-size: 10pt;
-     line-height: 20pt;
-     color: #787878;
-    width: 255px;
-    height: 360px;
-    position: absolute;
-    left: 240px;
-    padding-top: 255px;
-  }
-
-  div.lorem2 h2{
-      color: #37C1EB;
-}
 div.lorem1 {
     font-size: 10pt;
-     line-height: 20pt;
+    line-height: 16pt;
     color: #787878;
     width: 255px;
-    height: 360px;
     position: absolute;
-    left: 240px;
+    left: 195px;
 }
-div.lorem1 h2{
-    color: #37C1EB;
-  }
+div.lorem2 {
+    font-size: 10pt;
+    line-height: 16pt;
+    color: #787878;
+    width: 255px;
+    position: absolute;
+    left: 195px;
+    padding-top: 250px;
+}
 div.lorem3 {
     font-size: 10pt;
-     line-height: 20pt;
+    line-height: 16pt;
     color: #787878;
     width: 255px;
-    height: 360px;
     position: absolute;
-    left: 758px;
+    left: 693px;
 }
-div.lorem3 h2{
-    color: #37C1EB;
-  }
 div.lorem4 {
     font-size: 10pt;
-     line-height: 20pt;
+    line-height: 16pt;
     color: #787878;
     width: 255px;
-    height: 360px;
     position: absolute;
-    left: 758px;
-    top: 363px;
+    left: 693px;
+    top: 357px;
 }
-div.lorem4 h2{
+div.lorem1 h5,
+div.lorem2 h5,
+div.lorem3 h5,
+div.lorem4 h5 {
     color: #37C1EB;
-  }
+    padding-bottom: 5px;
+    font-size: 14pt;
+}
 /* Nastia Bila END */
 
-
-/* Leonid Prorubshchykov START */
+/* _____ START */
+/* Section #6 – Latest Episodes */
 section.latest_episodes {
     width: 100%;
     height: 725px;
@@ -337,7 +329,7 @@ section.latest_episodes article {
     margin-right: 20px;
     width: 215px;
 }
-section.latest_episodes article:nth-child(4){
+section.latest_episodes article:nth-child(4) {
     margin-right: 0;
 }
 section.latest_episodes article h4 {
@@ -371,10 +363,10 @@ input.more_episodes {
     cursor: pointer;
     margin: 20px auto;
 }
-/* Leonid Prorubshchykov END */
-
+/* _____ END */
 
 /* ViktorSurkov START */
+/* Section #7 – Popular Episodes */
 div.photo {
     display: inline-block;
     width: 120px;
@@ -391,10 +383,7 @@ div.text-container {
 div.text-container p {
     font-size: large;
 }
-div.list1,
-div.list2,
-div.list3,
-div.list4 {
+div.list1, div.list2, div.list3, div.list4 {
     width: 100%;
     display: inline-block;
     margin-left: 10%;
@@ -406,14 +395,14 @@ div.text-container1 {
     margin: 20px;
 }
 div.Main-Headline {
-    background-color: #FFFFFF;    
+    background-color: #FFFFFF;
 }
-div.Main-Headline h1 {
-    font-size: x-large;
-    margin-left: 10%;
+div.Main-Headline h3 {
+    font-size: 26pt;
+    margin-left: 11%;
     margin-bottom: 2%;
 }
-div.Main-Headline span{
+div.Main-Headline span {
     color: #37C1EB;
 }
 div.main {
@@ -422,11 +411,16 @@ div.main {
     width: 55%;
     float: left;
 }
+/*Section #8 – Social Media Widgets*/
 div.facebook {
     float: left;
     margin: 2% 2% 0 2%;
     height: 620px;
     width: 300px;
+}
+div.facebook h3 {
+    font-size: 17pt;
+    margin-left: 7%;
 }
 div.widget {
     background-color: #CBD1D0;
@@ -441,13 +435,12 @@ div.widget p {
 }
 /* Viktor Surkov END */
 
-
 /* Roman Mrychko START */
 div.bottom_page {
-  width: 100%;
-  height: 500px;
+    width: 100%;
+    height: 500px;
 }
-/*how-to-consume (section 9)*/
+/* Section #9 – How to consume */
 div.consume {
     width: 100%;
     height: 315px;
@@ -456,117 +449,116 @@ div.consume {
     text-align: center;
 }
 div.main-header {
-  width: 300px;
-  padding: 10px;
-  margin: auto;
-  align-content: center;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    align-content: center;
 }
 div.main-header h3 {
-  font-size: 20pt;
-  color: #313131;
-  text-align: center;
-  padding: 20px 0;
+    font-size: 20pt;
+    color: #313131;
+    text-align: center;
+    padding: 20px 0;
 }
 div.main-header span {
-  color: #37C1EB;
+    color: #37C1EB;
 }
 div#left-container {
-  float: left;
+    float: left;
 }
 div#center-container {
-  margin: auto;
+    margin: auto;
 }
 div#right-container {
-  float: right;
+    float: right;
 }
-/* circle container*/
 div.circle-container {
-  width: 20%;
-  height: 100px;
-  display: inline-block;
-  padding-top: 15px;
-  margin-left: 125px;
-  margin-right: 125px;
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 div.circle {
-  border-radius: 50%;
-  background-color: #313131;
-  width: 150px;
-  height: 150px;
-  margin: auto;
+    border-radius: 50%;
+    background-color: #313131;
+    width: 150px;
+    height: 150px;
+    margin: auto;
 }
 div.circle p {
-  color: #FFFFFF;
-  font-size: 24px;
-  text-align: center;
-  padding-top: 25%;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 25%;
 }
-/* epilogue-footer (section 10) */
+/* Section #10 – Epilogue Footer */
 div.epilogue_footer {
-  width: 100%;
-  height: 380px;
-  background: #0C0C0C;
+    width: 100%;
+    height: 380px;
+    background: #0C0C0C;
 }
 div.left-text {
-  display: inline-block;
-  vertical-align: top;
-  width: 60%;
-  height: 380px;
-  text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    height: 380px;
+    text-align: left;
 }
 div.right-text {
-  display: inline-block;
-  vertical-align: top;
-  width: 33%;
-  height: 380px;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 380px;
 }
 div.left-text h3 {
-  font-size: 20pt;
-  margin-top: 30px;
-  margin-left: 220px;
-  color: #FFFFFF;
+    font-size: 20pt;
+    margin-top: 30px;
+    margin-left: 220px;
+    color: #FFFFFF;
 }
 div.left-text p {
-  font-size: 10pt;
-  margin-top: 30px;
-  margin-left: 220px;
-  margin-right: 120px;
-  color: #D0D5D5;
+    font-size: 10pt;
+    margin-top: 30px;
+    margin-left: 220px;
+    margin-right: 120px;
+    color: #D0D5D5;
 }
 div.right-text h3 {
-  font-size: 20pt;
-  text-align: center;
-  width: 300px;
-  margin-top: 30px;
-  color: #FFFFFF;
+    font-size: 20pt;
+    text-align: center;
+    width: 300px;
+    margin-top: 30px;
+    color: #FFFFFF;
 }
 div.right-text input {
-  font-size: 16pt;
-  text-align: center;
-  color: #FFFFFF;
-  margin-top: 60px;
-  border: 2px solid #FFFFFF;
-  background-color: #0C0C0C;
-  padding: 7px 25px;
-  border-radius: 5px;
-  cursor: pointer;
+    font-size: 16pt;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+    border: 2px solid #FFFFFF;
+    background-color: #0C0C0C;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 div.left-text span {
-  color: #37C1EB;
+    color: #37C1EB;
 }
-/* copyright (section 11) */
+/* Section #11 – Legalese */
 div.footer {
-  width: 100%;
-  height: 50px;
-  background: #171717;
+    width: 100%;
+    height: 50px;
+    background: #171717;
 }
 div.copyright {
-  margin: auto;
+    margin: auto;
 }
 div.copyright p {
-  color: #D0D5D5;
-  font-size: 10pt;
-  padding: 15px;
-  text-align: center;
+    color: #D0D5D5;
+    font-size: 10pt;
+    padding: 15px;
+    text-align: center;
 }
 /* Roman Mrychko END */
