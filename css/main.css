@@ -216,6 +216,12 @@ div.sub_info ul {
 
 
 /* ViktorSurkov START */
+.Surkov {
+  width: 100%;
+  height: 800px;
+  border: 2px solid purple;
+}
+
 div.photo{
     display: inline-block;
     width: 120px;
@@ -280,24 +286,97 @@ div.text-container1{
 
 
 /* Roman Mrychko START */
-/*Banner*/
+.footer {
+  width: 100%;
+  height: 300px;
+  border: 2px solid green; /*test*/
+}
+
+/*how-to-consume (section 9)*/
 div.how-to-consume {
     width: 100%;
     height: 280px;
     background: #A7B1AF;
+    right: 0;
+    text-align: center;
 }
 
+div.how-to-consume .main-header {
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  align-content: center;
+}
+
+div.how-to-consume .main-header p {
+  font-family: Arial;
+  font-size: 27px;
+  color: #313131;
+  text-align: center;
+}
+
+div.how-to-consume .main-header span {
+  color: #37C1EB;
+}
+
+#left-container {
+  float: left;
+}
+
+#center-container {
+  margin: auto;
+}
+
+#right-container {
+  float: right;
+}
+
+/* circle container*/
+div.how-to-consume .circle-container {
+  width: 20%;
+  height: 100px;
+  display: inline-block;
+  padding-top: 15px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+/* circle */
+div.how-to-consume .circle {
+  border-radius: 50%;
+  background-color: #313131;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+/* circle text */
+.circle p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25%;
+}
+
+/* epilogue-footer (section 10) */
 div.epilogue-footer {
   width: 100%;
   height: 280px;
   background: #1C1E1D;
 }
 
+div.epilogue-footer .left-text {
+
+}
+
+div.epilogue-footer .right-text {
+  
+}
+
+/* copyright (section 11) */
 div.copyright {
   width: 100%;
   height: 50px;
   background: black;
 }
-
-div.copyright.
 /* Roman Mrychko END */
