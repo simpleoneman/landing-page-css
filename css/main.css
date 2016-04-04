@@ -1,5 +1,5 @@
-/* Standart styles */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+
 body {
     font-family: Open Sans, Geneva, Tahoma, sans-serif;
     font-weight: 600;
@@ -163,7 +163,7 @@ div.cred_logos span {
 }
 /*Subscribe*/
 div.subscribe {
-    height: 190px;
+    height: 210px;
     width: 100%;
     background-color: #37C1EB;
     color: #FFFFFF;
@@ -211,141 +211,176 @@ div.sub_info ul {
 
 
 /* Leonid Prorubshchykov START */
-
+section.latest_episodes {
+    width: 100%;
+    height: 725px;
+    background-color: #191A1A;
+    color: #FFFFFF;
+}
+section.latest_episodes h3 {
+    font-weight: normal;
+    font-size: 22pt;
+    padding: 45px 0;
+    text-align: center;
+    cursor: default;
+}
+section.latest_episodes h3 span {
+    color: #38C3EC;
+}
+div.latest_episodes_articles {
+    width: 940px;
+    height: 460px;
+    margin: 0 auto;
+}
+section.latest_episodes article {
+    display: inline-block;
+    margin-right: 20px;
+    width: 215px;
+}
+section.latest_episodes article:nth-child(4){
+    margin-right: 0;
+}
+section.latest_episodes article h4 {
+    font-weight: normal;
+    margin-top: 30px;
+    color: #36BEE6;
+}
+section.latest_episodes article p {
+    font-size: 10pt;
+    color: #999E9D;
+}
+section.latest_episodes article a {
+    color: #38C1EA;
+    font-size: 10pt;
+}
+a.older_entries {
+    display: block;
+    margin-top: 40px;
+    width: 125px;
+    color: #38C1EA;
+    font-size: 10pt;
+}
+input.more_episodes {
+    display: block;
+    background-color: #191A1A;
+    border-radius: 3px;
+    font-size: 16pt;
+    padding: 10px;
+    color: #38C1EA;
+    border: 2px solid #38C1EA;
+    cursor: pointer;
+    margin: 20px auto;
+}
 /* Leonid Prorubshchykov END */
 
 
 /* ViktorSurkov START */
-div.photo{
+div.photo {
     display: inline-block;
     width: 120px;
     float: left;
     margin: 10px;
 }
-
-
-div.text-container{
+div.text-container {
     display: inline-block;
     width: 60%;
     float: left;
     margin: 10px;
     font-size: small;
 }
-
-
-div.text-container p{
+div.text-container p {
     font-size: large;
 }
-
-
-div.list1, div.list2, div.list3, div.list4{
+div.list1,
+div.list2,
+div.list3,
+div.list4 {
     width: 100%;
     display: inline-block;
     margin-left: 10%;
 }
-
-
-div.text-container1{
+div.text-container1 {
     display: inline-block;
     width: 80%;
     float: left;
     margin: 20px;
 }
-
-
-div.Main-Headline h1{
+div.Main-Headline {
+    background-color: #FFFFFF;    
+}
+div.Main-Headline h1 {
     font-size: x-large;
     margin-left: 10%;
     margin-bottom: 2%;
 }
-
-
 div.Main-Headline span{
     color: #37C1EB;
 }
-
-
-div.main{
+div.main {
     padding-left: 7%;
     margin: 2% 0 2% 2%;
     width: 55%;
     float: left;
 }
-
-
-div.facebook{
+div.facebook {
     float: left;
     margin: 2% 2% 0 2%;
     height: 620px;
     width: 300px;
 }
-
-
-div.widget{
+div.widget {
     background-color: #CBD1D0;
     margin: 5%;
     height: 100%;
     text-align: center;
 }
-
-
-div.widget p{
+div.widget p {
     padding-top: 80%;
     margin-left: 30%;
     margin-right: 30%;
 }
-
-
 /* Viktor Surkov END */
 
 
 /* Roman Mrychko START */
-.bottom_page {
+div.bottom_page {
   width: 100%;
   height: 500px;
 }
-
 /*how-to-consume (section 9)*/
 div.consume {
     width: 100%;
-    height: 300px;
-    background: #A7B1AF;
+    height: 315px;
+    background-color: #CFD6D5;
     right: 0;
     text-align: center;
 }
-
-div.consume .main-header {
+div.main-header {
   width: 300px;
   padding: 10px;
   margin: auto;
   align-content: center;
 }
-
-div.consume .main-header h3 {
+div.main-header h3 {
   font-size: 20pt;
   color: #313131;
   text-align: center;
   padding: 20px 0;
 }
-
-div.consume .main-header span {
+div.main-header span {
   color: #37C1EB;
 }
-
 div#left-container {
   float: left;
 }
-
 div#center-container {
   margin: auto;
 }
-
 div#right-container {
   float: right;
 }
-
 /* circle container*/
-div.consume .circle-container {
+div.circle-container {
   width: 20%;
   height: 100px;
   display: inline-block;
@@ -353,98 +388,85 @@ div.consume .circle-container {
   margin-left: 125px;
   margin-right: 125px;
 }
-
-/* circle */
-div.consume .circle {
+div.circle {
   border-radius: 50%;
   background-color: #313131;
   width: 150px;
   height: 150px;
   margin: auto;
 }
-
-/* circle text */
 div.circle p {
-  color: white;
+  color: #FFFFFF;
   font-size: 24px;
   text-align: center;
   padding-top: 25%;
 }
-
 /* epilogue-footer (section 10) */
 div.epilogue_footer {
   width: 100%;
   height: 380px;
-  background: #1C1E1D;
+  background: #0C0C0C;
 }
-
-div.epilogue_footer .left-text {
+div.left-text {
   display: inline-block;
   vertical-align: top;
   width: 60%;
   height: 380px;
   text-align: left;
 }
-
-div.epilogue_footer .right-text {
+div.right-text {
   display: inline-block;
   vertical-align: top;
   width: 33%;
   height: 380px;
 }
-
 div.left-text h3 {
   font-size: 20pt;
   margin-top: 30px;
   margin-left: 220px;
-  color: white;
+  color: #FFFFFF;
 }
-
 div.left-text p {
   font-size: 10pt;
   margin-top: 30px;
   margin-left: 220px;
   margin-right: 120px;
-  color: white;
+  color: #D0D5D5;
 }
-
 div.right-text h3 {
   font-size: 20pt;
   text-align: center;
   width: 300px;
   margin-top: 30px;
-  color: white;
+  color: #FFFFFF;
 }
-
 div.right-text input {
   font-size: 16pt;
   text-align: center;
-  color: white;
-  width: 300px;
+  color: #FFFFFF;
   margin-top: 60px;
-  border: 2px solid white;
-  background-color: Transparent;
+  border: 2px solid #FFFFFF;
+  background-color: #0C0C0C;
+  padding: 7px 25px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
 div.left-text span {
   color: #37C1EB;
 }
-
 /* copyright (section 11) */
 div.footer {
   width: 100%;
   height: 50px;
-  background: black;
+  background: #171717;
 }
-
-div.footer .copyright {
+div.copyright {
   margin: auto;
 }
-
-div.footer .copyright p {
-  color: white;
+div.copyright p {
+  color: #D0D5D5;
   font-size: 10pt;
-  padding: 16px;
+  padding: 15px;
   text-align: center;
 }
 /* Roman Mrychko END */
