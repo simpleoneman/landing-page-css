@@ -300,13 +300,13 @@ div.widget p{
 
 
 /* Roman Mrychko START */
-.footer {
+.Mrychko {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 /*how-to-consume (section 9)*/
-div.how-to-consume {
+div.consume {
     width: 100%;
     height: 280px;
     background: #A7B1AF;
@@ -314,21 +314,21 @@ div.how-to-consume {
     text-align: center;
 }
 
-div.how-to-consume .main-header {
+div.consume .main-header {
   width: 300px;
   padding: 10px;
   margin: auto;
   align-content: center;
 }
 
-div.how-to-consume .main-header p {
+div.consume .main-header p {
   font-family: Arial;
   font-size: 27px;
   color: #313131;
   text-align: center;
 }
 
-div.how-to-consume .main-header span {
+div.consume .main-header span {
   color: #37C1EB;
 }
 
@@ -345,7 +345,7 @@ div.how-to-consume .main-header span {
 }
 
 /* circle container*/
-div.how-to-consume .circle-container {
+div.consume .circle-container {
   width: 20%;
   height: 100px;
   display: inline-block;
@@ -355,7 +355,7 @@ div.how-to-consume .circle-container {
 }
 
 /* circle */
-div.how-to-consume .circle {
+div.consume .circle {
   border-radius: 50%;
   background-color: #313131;
   width: 150px;
@@ -372,26 +372,26 @@ div.how-to-consume .circle {
 }
 
 /* epilogue-footer (section 10) */
-div.epilogue-footer {
+div.epilogue_footer {
   width: 100%;
-  height: 280px;
+  height: 380px;
   background: #1C1E1D;
 }
 
-div.epilogue-footer .left-text {
+div.epilogue_footer .left-text {
   width: 50%;
   float: left;
   border: 2px solid white;
 }
 
-div.epilogue-footer .right-text {
+div.epilogue_footer .right-text {
   width: 50%;
   float: left;
   border: 2px solid red;
 }
 
 /* copyright (section 11) */
-div.copyright {
+div.footer {
   width: 100%;
   height: 50px;
   background: black;
