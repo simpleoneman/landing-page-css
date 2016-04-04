@@ -222,6 +222,8 @@ div.photo{
     float: left;
     margin: 10px;
 }
+
+
 div.text-container{
     display: inline-block;
     width: 60%;
@@ -229,48 +231,66 @@ div.text-container{
     margin: 10px;
     font-size: small;
 }
-.text-container p{
+
+
+div.text-container p{
     font-size: large;
 }
-.list1, .list2, .list3, .list4{
+
+
+div.list1, div.list2, div.list3, div.list4{
     width: 100%;
     display: inline-block;
     margin-left: 10%;
 }
+
+
 div.text-container1{
     display: inline-block;
     width: 80%;
     float: left;
     margin: 20px;
 }
-.Surkov h1{
+
+
+div.Main-Headline h1{
     font-size: x-large;
     margin-left: 10%;
     margin-bottom: 2%;
 }
-.Surkov ll{
+
+
+div.Main-Headline span{
     color: #37C1EB;
 }
-.main{
+
+
+div.main{
     padding-left: 7%;
     margin: 2% 0 2% 2%;
     width: 55%;
     float: left;
 }
-.facebook{
+
+
+div.facebook{
     float: left;
     margin: 2% 2% 0 2%;
-    height: 680px;
+    height: 620px;
     width: 300px;
 }
-.widget{
-    background-color: #737D7D;
+
+
+div.widget{
+    background-color: #CBD1D0;
     margin: 5%;
     height: 100%;
     text-align: center;
 }
-.widget p{
-    padding-top: 60%;
+
+
+div.widget p{
+    padding-top: 80%;
     margin-left: 30%;
     margin-right: 30%;
 }
